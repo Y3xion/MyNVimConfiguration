@@ -1,3 +1,5 @@
+
+#configuracion basica
 set number
 set mouse=a
 syntax enable
@@ -6,6 +8,12 @@ set encoding=utf-8
 set showmatch
 set relativenumber
 
+
+
+
+
+#plugins
+
 call plug#begin("~/.vim/plugged")
 
 Plug 'sainnhe/sonokai'
@@ -13,7 +21,7 @@ Plug 'sainnhe/sonokai'
 call plug#end()
 
 
-"GRUVOBX CONFIGURACION
+#GRUVOBX CONFIGURACION
 
 colorscheme sonokai
 set background=dark
